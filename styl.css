@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #333;
+}
+.dropdownamanu ul, .dropdownamanu li{
+    margin: 0;
+    padding: 0;
+}
+.dropdownamanu ul{
+    background-color: gray;
+    list-style: none;
+    width: 100%;
+}
+.dropdownamanu li{
+    float: left;
+    position: relative;
+    width: auto;
+}
+.dropdownamanu a{
+    background-color: red;
+    color: white;
+    display: flex;
+    font-size: 13px;
+    font-family: 'poppins',sans-serif;
+    justify-content: space-between;
+    padding: 15px 55px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.25s ease;
+}
+.dropdownamanu li :hover a{
+    background-color: blueviolet;
+}
+#submenu{
+    left: 0;
+    position: absolute;
+    top: 33px;
+    visibility: hidden;
+    z-index: 1;
+}
+li :hover ul#submenu{
+    opacity: 1;
+    top: 80px;
+    visibility: visible;
+}
+#submenu li{
+    float: none;
+    width: 100%;
+}

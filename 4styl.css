@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cards{
+    width: 30%;
+    background-color: gray;
+    border-radius: 5px;
+    align-items: center;
+    margin: 40px;
+}
+.imge{
+   width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    overflow: hidden;
+}
+.title{
+    text-align: center;
+    padding: 5px;
+}
+.des{
+    text-align: center;
+}
+button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+button :hover{
+    background-color:black;
+    color: white;
+}
+
+
+.cards2{
+    width: 30%;
+    background-color: gray;
+    border-radius: 5px;
+    align-items: center;
+    margin: 40px;
+}
+.imge-1{
+   width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.title-1{
+    text-align: center;
+    padding: 5px;
+}
+.des-1{
+    text-align: center;
+}
+button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+button :hover{
+    background-color:black;
+    color: white;
+}
+
+
+.cards3{
+    width: 30%;
+    background-color: gray;
+    border-radius: 5px;
+    align-items: center;
+    margin: 40px;
+}
+.imge-3{
+   width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.title-3{
+    text-align: center;
+    padding: 5px;
+    
+}
+.des-3{
+    text-align: center;
+}
+button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+button :hover{
+    background-color:black;
+    color: white;
+    transition: 5s;
+}
